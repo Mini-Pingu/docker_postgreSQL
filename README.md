@@ -6,8 +6,8 @@
 
 - [x] 安裝 Docker
 - [x] 安裝 the Docker version -> PostgreSQL
-- [x] docker 容器外連接 PostgreSQL
-- [ ] pgAdmin 或者其他可視化工具
+- [ ] ***docker 容器外連接並 CRUD PostgreSQL***
+- [x] pgAdmin 或者其他可視化工具
 
 ### Upcoming:
 
@@ -15,7 +15,7 @@
 
 ## 流程
 
-- [x] 安裝 Docker
+- [x] ***安裝 Docker***
 
   ### 策略:
 
@@ -36,9 +36,9 @@
 
   1. [How To Install and Use Docker on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 
-- [x] 安裝 the Docker version -> PostgreSQL
+- [x] ***安裝 the Docker version -> PostgreSQL***
 
-- [ ] docker 容器外連接 PostgreSQL
+- [ ] ***docker 容器外連接並 CRUD PostgreSQL***
 
   ### 策略:
 
@@ -75,7 +75,24 @@
   3. [Connecting to Postgresql in a docker container from outside](https://stackoverflow.com/questions/37694987/connecting-to-postgresql-in-a-docker-container-from-outside)
   4. [Connect From Your Local Machine to a PostgreSQL Database in Docker](https://medium.com/better-programming/connect-from-local-machine-to-postgresql-docker-container-f785f00461a7)
 
-  
+- [ ] ***pgAdmin 或者其他可視化工具***
+
+  ### 策略:
+
+  1. 搭建 pgAdmin4
+  2. 直接連接暴露 docker container 的端口就可以監視 database
+
+  ### 驗證:
+
+  - [x] 正常搭建 pgAdmin4，並連接 5432 port database
+
+  ### Upcoming:
+
+  1. N/A
+
+  ### Reference:
+
+  1. N/A
 
 ## References
 
